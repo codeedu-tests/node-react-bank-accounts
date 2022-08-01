@@ -37,7 +37,7 @@ Criar a aplicação usando pirâmides de testes será muito bem vindo.
 ## Docker
 
 Crie as duas aplicações montando-as com Docker de forma que ao fazer `docker-compose up` seja possível testar todo o ambiente. 
-O Docker deve levantar back-end, front-end, banco de dados e o RabbitMQ.
+O Docker deve levantar back-end, front-end, banco de dados.
 
 ## Entrega
 
