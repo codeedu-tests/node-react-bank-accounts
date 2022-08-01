@@ -7,7 +7,6 @@ O projeto consiste na criação de um sistema de transferência entre contas ban
 * Back-end - Node.js com TypeScript (Pode ser usado qualquer lib ou framework)
 * Front-end - React.js com TypeScript (Pode ser usado Create React App ou Next.js)
 * Docker para orquestar o ambiente da aplicação
-* RabbitMQ para sistemas de mensagens
 
 ## Contexto do sistema
 
@@ -23,8 +22,6 @@ Os usuários também poderão ver o histórico de transações de sua conta banc
 
 Você deve criar uma API Rest que aceita realizar a listagem das transações, mostrar o saldo atual e fazer transferências entre as contas.
 Esta aplicação deverá ser construída usando conceitos de Clean Architecture/Arquitetura Hexagonal e Domain Driven Design.
-
-Além disto, esta aplicação deverá criar um consumidor do RabbitMQ que aceita fazer transferências entre as contas.
 
 Criar a aplicação usando pirâmides de testes será muito bem vindo.
 
